@@ -13,10 +13,9 @@ export default class Header extends Component {
                             <img src={logo} alt={"logo"} style={{height: '64px'}} />
                         </h1>
                         <ul>
-                            <li><a data-page="persons" href="#">Personas</a></li>
-                            <li><a data-page="estate" href="#">Īpašumi</a></li>
-                            <li><a data-page="vechicles" href="#">Transports</a></li>
-                            <div style={{position: 'absolute'}} class="bubble"></div>
+                            <li><a data-page="persons" href="">Personas</a></li>
+                            <li><a data-page="estate" href="">Īpašumi</a></li>
+                            <li><a data-page="vechicles" href="">Transports</a></li>
                         </ul>
                     </nav>
 
